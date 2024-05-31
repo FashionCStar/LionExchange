@@ -2705,6 +2705,22 @@
     tiny-warning "^1.0.0"
     toformat "^2.0.0"
 
+"@sushiswap/core-sdk@1.0.0-canary.16":
+  version "1.0.0-canary.16"
+  resolved "https://registry.yarnpkg.com/@sushiswap/core-sdk/-/core-sdk-1.0.0-canary.16.tgz#e3b42a442233c1fe2d058a0f8564a66667317bd5"
+  integrity sha512-eLcpnUcZDK8gM0JzASsa3AkeESvnYzpsMV1cJ0j8AT8T915tLh96LigvfnJb2DZG3EbDcbl23be/rxlcHIx3QQ==
+  dependencies:
+    "@ethersproject/address" "^5.4.0"
+    "@ethersproject/bignumber" "^5.4.0"
+    "@ethersproject/providers" "^5.4.0"
+    "@ethersproject/solidity" "^5.4.0"
+    big.js "^6.1.1"
+    decimal.js-light "^2.5.0"
+    jsbi "^4.1.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.0"
+    toformat "^2.0.0"
+
 "@sushiswap/core@^2.0.0-canary.1":
   version "2.0.0-canary.1"
   resolved "https://registry.yarnpkg.com/@sushiswap/core/-/core-2.0.0-canary.1.tgz#91c938668282d463e4fce6e0cf4d320ce5f3768f"
@@ -2724,10 +2740,10 @@
   resolved "https://registry.yarnpkg.com/@sushiswap/limit-order-pair-list/-/limit-order-pair-list-0.2.17.tgz#0f0b1fb2d4f2425056e76673cb3c3c7011dacfcb"
   integrity sha512-j5ewnBO2kEH1s3/dXPS8+qaFO/rM83H6DMP9Zy/Uh76Ub+wjRC4EqQEuhPlrAgQvqSTNX4hbPByD7x/OMzINuw==
 
-"@sushiswap/limit-order-sdk@1.0.0-canary.119":
-  version "1.0.0-canary.119"
-  resolved "https://registry.yarnpkg.com/@sushiswap/limit-order-sdk/-/limit-order-sdk-1.0.0-canary.119.tgz#5aba3af38e47ed1abe7230e6faa32f5fdf39100c"
-  integrity sha512-dfB7I6cMGm+A6E20Jey7kEKdhnmcgOqt9GMVagfsjXnYJ6YxLp0fEWhvXa/Z6JZNxBuBvw128Hp/m7BezRsf1A==
+"@sushiswap/limit-order-sdk@1.0.0-canary.175":
+  version "1.0.0-canary.175"
+  resolved "https://registry.yarnpkg.com/@sushiswap/limit-order-sdk/-/limit-order-sdk-1.0.0-canary.175.tgz#31957918a7ebbcb261dd2bb493d3cb369a0bd714"
+  integrity sha512-tA4rgwc+4aonVN8/dDRMKY3QuxbJBft8ekJL28j0iu7E101a5eaiHZN5L4GcTjFdu4vhAAo1w3vgLzj4uJL5yQ==
   dependencies:
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/abstract-signer" "^5.4.0"
@@ -2736,7 +2752,7 @@
     "@ethersproject/experimental" "^5.4.0"
     "@ethersproject/signing-key" "^5.4.0"
     "@ethersproject/transactions" "^5.4.0"
-    "@sushiswap/core-sdk" "1.0.0-canary.138"
+    "@sushiswap/core-sdk" "1.0.0-canary.16"
     eip-712 "^0.4.0"
     isomorphic-unfetch "^3.0.0"
 
@@ -3766,7 +3782,7 @@
   dependencies:
     "@walletconnect/window-getters" "^1.0.0"
 
-"@web3-react/abstract-connector@6.0.7", "@web3-react/abstract-connector@^6.0.7", "web3-react-abstract-connector@npm:@web3-react/abstract-connector@^6.0.7":
+"@web3-react/abstract-connector@6.0.7", "@web3-react/abstract-connector@^6.0.7":
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/@web3-react/abstract-connector/-/abstract-connector-6.0.7.tgz#401b3c045f1e0fab04256311be49d5144e9badc6"
   integrity sha512-RhQasA4Ox8CxUC0OENc1AJJm8UTybu/oOCM61Zjg6y0iF7Z0sqv1Ai1VdhC33hrQpA8qSBgoXN9PaP8jKmtdqg==
@@ -3807,7 +3823,7 @@
     "@web3-react/types" "^8.0.12-beta.0"
     zustand "^4.0.0-beta.3"
 
-"@web3-react/types@^6.0.7", "web3-react-types@npm:@web3-react/types@^6.0.7":
+"@web3-react/types@^6.0.7":
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/@web3-react/types/-/types-6.0.7.tgz#34a6204224467eedc6123abaf55fbb6baeb2809f"
   integrity sha512-ofGmfDhxmNT1/P/MgVa8IKSkCStFiyvXe+U5tyZurKdrtTDFU+wJ/LxClPDtFerWpczNFPUSrKcuhfPX1sI6+A==
@@ -13103,6 +13119,13 @@ web3-provider-engine@16.0.1:
     xhr "^2.2.0"
     xtend "^4.0.1"
 
+"web3-react-abstract-connector@npm:@web3-react/abstract-connector@^6.0.7":
+  version "6.0.7"
+  resolved "https://registry.yarnpkg.com/@web3-react/abstract-connector/-/abstract-connector-6.0.7.tgz#401b3c045f1e0fab04256311be49d5144e9badc6"
+  integrity sha512-RhQasA4Ox8CxUC0OENc1AJJm8UTybu/oOCM61Zjg6y0iF7Z0sqv1Ai1VdhC33hrQpA8qSBgoXN9PaP8jKmtdqg==
+  dependencies:
+    "@web3-react/types" "^6.0.7"
+
 "web3-react-core@npm:@web3-react/core@^6.0.9":
   version "6.1.9"
   resolved "https://registry.yarnpkg.com/@web3-react/core/-/core-6.1.9.tgz#5f5daa0545a8ea07770a699580ced552583afc97"
@@ -13142,6 +13165,11 @@ web3-provider-engine@16.0.1:
     "@web3-react/abstract-connector" "^6.0.7"
     "@web3-react/types" "^6.0.7"
     tiny-invariant "^1.0.6"
+
+"web3-react-types@npm:@web3-react/types@^6.0.7":
+  version "6.0.7"
+  resolved "https://registry.yarnpkg.com/@web3-react/types/-/types-6.0.7.tgz#34a6204224467eedc6123abaf55fbb6baeb2809f"
+  integrity sha512-ofGmfDhxmNT1/P/MgVa8IKSkCStFiyvXe+U5tyZurKdrtTDFU+wJ/LxClPDtFerWpczNFPUSrKcuhfPX1sI6+A==
 
 "web3-react-walletconnect-connector@npm:@web3-react/walletconnect-connector@^7.0.2-alpha.0":
   version "7.0.2-alpha.0"
